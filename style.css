@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 2;
+}
+
+header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    background-image: url(Imagens/background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+    height: 120px;
+}
+
+.right-box {
+    display: flex;
+    height: 100px;
+}
+
+.logo {
+    margin-left: 30px;
+    max-width: 150px;
+    height: 135px;
+    cursor: pointer;
+}
+
+.box {
+    text-align: center; 
+    color: white;
+    font-size: 18px;
+    line-height: 2;
+    width: 120px; 
+    height: 45px; 
+    border: 2px solid #333; 
+    border-radius: 20px; 
+    margin-top: 25px;
+    margin-left: 10px; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    justify-content: space-around;
+    margin-right: 30px;
+    transition: 500ms ease-in;
+}
+
+.box:hover{
+    background: transparent;
+}
+
+
+.box-amarelo {
+    background-color: #CEC60A;
+}
+
+.box-azul {
+    background-color:#3F2FF9;
+}
+
+.box-verde {
+    background-color:#36E51A;
+}
+
+.cabecalho-2 {
+    background-color: #9BF2ED69;
+    height: 100px;
+    text-decoration: underline;
+    display: flex;
+    justify-content: space-around;
+    justify-content: center; 
+    align-items: center;
+    text-align: center; 
+}
+
+.cabecalho-2 a {
+    margin: 10px;
+    font-size: 18px;
+    color: #333; 
+    text-decoration: none; 
+    font-weight: bold; 
+}
+
+.cabecalho-2 a:hover {
+    font-size: 15pt;
+}
+
+.box a {
+    margin: 0 10px; 
+    color: #333; 
+    text-decoration: none; 
+    font-weight: bold; 
+    transition: 500ms ease-in; 
+}
+
+.box a:hover {
+    color: #000000;
+}
+
+.imagens{
+    background-image: url(Imagens/background2.jpeg);
+    height: 460px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.conteiner{
+    height: 450px;
+    display: flex;
+    padding-top: 60px;
+    justify-content: space-around;
+    
+}
+
+.imagens .conteiner img{
+    height: 300px;
+    border: 2px solid;
+    box-shadow: 5px 5px 5px 2px;
+}
+
+.sobre-nos{
+    background: url(Imagens/novo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    
+}
+
+.sobre-nos-titulo{
+    font-family: "Lemonada", cursive;
+    justify-content: space-around;
+    justify-content: center; 
+    align-items: center;
+    text-align: center; 
+    font-size: 18pt;
+}
+
+.texto{
+    height: 470px;
+    width: 500px;
+    border: 2px solid;
+}
+
+.sobre-nos .texto{
+    font-size: 17pt;
+    letter-spacing: 1.5px;
+    text-align: justify;
+    padding: 5px 10px;
+}
+
+
+.sobre-nos .img-sobre-nos{
+    height: 480px;
+    width: 480px;
+    border: 2px solid;
+}
+
+.sobre-nos .sobre-nos-layout{
+    display: flex;
+    justify-content: space-around;
+   padding-top: 40px;
+ 
+}
+
+.rodape{
+    height: 150px;
+    width: auto;
+    background-color: #9BF2ED;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.logo-footer{
+    height: 150px;
+    
+}
+
+.icons{
+    width: 90px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 300px;
+    font-size: 16pt;
+    cursor: pointer;
+}
+
+.rodape .contato{
+    margin-left: 30px;
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 8pt;
+}
+
+.rodape .endereco{
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 8pt;
+}
+
+.rodape .icons a{
+    text-decoration: none;
+    color: black;
+}
